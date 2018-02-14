@@ -1,0 +1,15 @@
+networks:
+  default:
+    external:
+      name: nat
+services:
+  netcoreldspaframework:
+    build:
+      context: C:\projectslocal\netcoreldspaframework
+      dockerfile: netcoreldspaframework\Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: netcoreldspaframework
+    ports:
+    - 80/tcp
+version: '3.0'

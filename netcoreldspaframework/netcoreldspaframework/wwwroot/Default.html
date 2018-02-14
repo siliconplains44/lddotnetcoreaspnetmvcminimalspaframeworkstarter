@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leopard Data .NET Core SPA Framework</title>
+    <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/site.min.css" />    
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">netcoreldspaframework</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container body-content">
+        <div id="body">
+        </div>
+        <hr />
+        <footer>
+            <p>&copy; 2018 - .NET Core ASP.NET Leopard Data SPA Minimal Framework Example</p>
+        </footer>
+    </div>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"></script>
+    <script src="/js/site.min.js"></script>
+    <script src="/js/minimal.js" type="text/javascript"></script>
+    <script src="/js/application.js" type="text/javascript"></script>
+    <script src="/js/utility.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        $(function () {
+
+            application.initialize($('#body'));
+
+            $(window).on('hashchange', function () {
+                minimal.navigateToPage(location.hash.replace(/^#/, ""), true);
+            });
+
+            initialLink = window.location.hash.replace(/^#/, "");
+
+            if (initialLink != '') {
+                minimal.navigateToPage(initialLink, true);
+            }
+        });
+
+    </script>
+
+</body>
+</html>

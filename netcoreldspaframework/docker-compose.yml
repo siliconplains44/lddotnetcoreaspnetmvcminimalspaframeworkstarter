@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  netcoreldspaframework:
+    image: netcoreldspaframework
+    build:
+      context: .
+      dockerfile: netcoreldspaframework\Dockerfile

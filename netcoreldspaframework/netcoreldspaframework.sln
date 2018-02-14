@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "netcoreldspaframework", "netcoreldspaframework\netcoreldspaframework.csproj", "{ADBFE834-4189-480F-9EDC-B4421C213BA4}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{12598B0F-73C0-448C-996C-F5960A8F9A6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADBFE834-4189-480F-9EDC-B4421C213BA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADBFE834-4189-480F-9EDC-B4421C213BA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADBFE834-4189-480F-9EDC-B4421C213BA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADBFE834-4189-480F-9EDC-B4421C213BA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12598B0F-73C0-448C-996C-F5960A8F9A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12598B0F-73C0-448C-996C-F5960A8F9A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12598B0F-73C0-448C-996C-F5960A8F9A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12598B0F-73C0-448C-996C-F5960A8F9A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {534F073E-CC31-4A26-B06F-57ACD4318E85}
+	EndGlobalSection
+EndGlobal

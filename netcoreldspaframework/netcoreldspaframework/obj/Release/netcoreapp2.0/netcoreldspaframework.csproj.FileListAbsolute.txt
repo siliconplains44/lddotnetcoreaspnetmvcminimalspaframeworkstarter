@@ -1,0 +1,11 @@
+C:\projectslocal\netcoreldspaframework\netcoreldspaframework\bin\Release\netcoreapp2.0\netcoreldspaframework.deps.json
+C:\projectslocal\netcoreldspaframework\netcoreldspaframework\bin\Release\netcoreapp2.0\netcoreldspaframework.runtimeconfig.json
+C:\projectslocal\netcoreldspaframework\netcoreldspaframework\bin\Release\netcoreapp2.0\netcoreldspaframework.runtimeconfig.dev.json
+C:\projectslocal\netcoreldspaframework\netcoreldspaframework\bin\Release\netcoreapp2.0\netcoreldspaframework.dll
+C:\projectslocal\netcoreldspaframework\netcoreldspaframework\bin\Release\netcoreapp2.0\netcoreldspaframework.pdb
+C:\projectslocal\netcoreldspaframework\netcoreldspaframework\obj\Release\netcoreapp2.0\netcoreldspaframework.csproj.CoreCompileInputs.cache
+C:\projectslocal\netcoreldspaframework\netcoreldspaframework\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\projectslocal\netcoreldspaframework\netcoreldspaframework\obj\Release\netcoreapp2.0\netcoreldspaframework.AssemblyInfoInputs.cache
+C:\projectslocal\netcoreldspaframework\netcoreldspaframework\obj\Release\netcoreapp2.0\netcoreldspaframework.AssemblyInfo.cs
+C:\projectslocal\netcoreldspaframework\netcoreldspaframework\obj\Release\netcoreapp2.0\netcoreldspaframework.dll
+C:\projectslocal\netcoreldspaframework\netcoreldspaframework\obj\Release\netcoreapp2.0\netcoreldspaframework.pdb
